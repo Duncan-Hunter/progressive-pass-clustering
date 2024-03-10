@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "progressive-pass-clustering"
+version = "0.1.0"
+description = ""
+authors = ["Duncan-Hunter <dunchunter@hotmail.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.20.14"
+duckdb = "^0.10.0"
+scikit-learn = "^1.4.1.post1"
+seaborn = "^0.13.2"
+python-decouple = "^3.8"
+statsbombpy = "^1.12.0"
+pyarrow = "^15.0.1"
+kloppy = "^3.14.0"
+hvplot = "^0.9.2"
+mplsoccer = "^1.2.3"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+black = "^24.2.0"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
